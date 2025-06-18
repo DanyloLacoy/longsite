@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+.h-logo{
+    width: 100px;
+    height: 80px;
+}
+.logo-desc{
+    color: rgb(149, 149, 149);
+}
+.logo-name{
+    color: black;
+}
+.home{
+    text-decoration: none;
+    color: black;
+    margin-left: 1100px;
+}
+.base-a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+#h-select{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+#h-select2{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+
+
