@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    margin-bottom: 50px;
+}
+.h-logo{
+    width: 100px;
+    height: 80px;
+}
+.logo-desc{
+    color: rgb(149, 149, 149);
+}
+.logo-name{
+    color: black;
+}
+.home{
+    text-decoration: none;
+    color: black;
+    margin-left: 1100px;
+}
+.base-a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+#h-select{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+#h-select2{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+#PageIntro{
+    margin-left: 20px;
+    background-image: url("./Mulher-nas-compras.jpg");
+    width: 800px;
+    height: 550px;
+    align-content: center;
+
+}
+.PIDiv1-Title{
+    color: white;
+    margin-left: 200px;
+    font-size: 40px;
+}
+.PIDiv1-Text{
+    color: white;
+    margin-left: 200px;
+}
+.PIDiv1-Button{
+    margin-left: 200px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+}
