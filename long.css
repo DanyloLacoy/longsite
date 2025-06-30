@@ -38,11 +38,15 @@ header{
 #PageIntro{
     display: flex;
 }
+#PIGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .PIDiv1{
     margin-left: 20px;
     background-image: url("./Mulher-nas-compras.jpg");
     width: 900px;
-    height: 550px;
+    height: 525px;
     align-content: center;
 
 }
@@ -66,8 +70,8 @@ header{
     margin-left: 30px;
     background-color: brown;
     background-image: url("./");
-    width: 40000px;
-    height: 225px;
+    width: 490px;
+    height: 250px;
     align-content: center;
 
 }
@@ -77,6 +81,60 @@ header{
     font-size: 40px;
 }
 .PIDiv2-Text{
+    color: white;
+    margin-left: 50px;
+}
+.PIDiv3{
+    margin-left: 20px;
+    background-color: rgb(18, 31, 107);
+    background-image: url("./");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv3-Title{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.PIDiv3-Text{
+    color: white;
+    margin-left: 50px;
+}
+.PIDiv4{
+    margin-left: 30px;
+    background-color: rgb(63, 165, 42);
+    background-image: url("./");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv4-Title{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.PIDiv4-Text{
+    color: white;
+    margin-left: 50px;
+}
+.PIDiv5{
+    margin-left: 20px;
+    background-color: rgb(107, 18, 107);
+    background-image: url("./");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv5-Title{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.PIDiv5-Text{
     color: white;
     margin-left: 50px;
 }
