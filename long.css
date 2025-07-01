@@ -37,7 +37,6 @@ header{
 }
 #PageIntro{
     display: flex;
-    margin-bottom: 100px;
 }
 #PIGrid{
     display: grid;
@@ -138,4 +137,22 @@ header{
 .PIDiv5-Text{
     color: white;
     margin-left: 50px;
+}
+#MenArea{
+    margin-top: 100px;
+    border-top: 2px solid rgb(220, 220, 220);
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+.Arrow{
+    align-content: center;
+    border: 2px solid rgb(220, 220, 220);
+    width: 70px;
+    height: 70px;
+}
+.Arr{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.MAText>Details{
+    
 }
