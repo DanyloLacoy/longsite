@@ -1,82 +1,158 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hexashop</title>
-    <link rel="stylesheet" href="long.css">
-</head>
-<body>
-<!-- CABEÇALHO -->
-    <header>
-        <img src="hexagon-logo.png" class="h-logo">
-        <label class="logo-desc"> <p class="logo-name">HEXASHOP</p> online shopping</label>
-        <a href="" class="home">Home</a>
-        <a href="" class="base-a">Men's</a>
-        <a href="" class="base-a">Women's</a>
-        <a href="" class="base-a">kid's</a>
-        <a class="base-a"><select name="pages"id="h-select">
-            <option value="0">Pages</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select></a>
-        <a class="base-a"><select name="Features"id="h-select2">
-            <option value="0">Features</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select></a>
-        <a href="" class="base-a">Explore</a>
-    </header>
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    margin-bottom: 50px;
+}
+.h-logo{
+    width: 100px;
+    height: 80px;
+}
+.logo-desc{
+    color: rgb(149, 149, 149);
+}
+.logo-name{
+    color: black;
+}
+.home{
+    text-decoration: none;
+    color: black;
+    margin-left: 1100px;
+}
+.base-a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+#h-select{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+#h-select2{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+#PageIntro{
+    display: flex;
+}
+#PIGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.PIDiv1{
+    margin-left: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./Mulher-nas-compras.jpg");
+    width: 900px;
+    height: 525px;
+    align-content: center;
 
+}
+.PIDiv1-Title{
+    color: white;
+    margin-left: 200px;
+    font-size: 40px;
+}
+.PIDiv1-Text{
+    color: white;
+    margin-left: 200px;
+}
+.PIDiv1-Button{
+    margin-left: 200px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+}
+.PIDiv2{
+    margin-left: 30px;
+    background-color: brown;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv2-Title{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.PIDiv2-Text{
+    color: white;
+    margin-left: 50px;
+}
+.PIDiv3{
+    margin-left: 20px;
+    background-color: rgb(18, 31, 107);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv3-Title{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.PIDiv3-Text{
+    color: white;
+    margin-left: 50px;
+}
+.PIDiv4{
+    margin-left: 30px;
+    background-color: rgb(63, 165, 42);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv4-Title{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.PIDiv4-Text{
+    color: white;
+    margin-left: 50px;
+}
+.PIDiv5{
+    margin-left: 20px;
+    background-color: rgb(107, 18, 107);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv5-Title{
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.PIDiv5-Text{
+    color: white;
+    margin-left: 50px;
+}
+#MenArea{
+    margin-top: 100px;
+    border-top: 2px solid rgb(220, 220, 220);
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+.Arrow{
+    align-content: center;
+    border: 2px solid rgb(220, 220, 220);
+    width: 70px;
+    height: 70px;
+}
+.Arr{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.MAText{
     
-<!-- PRIMEIRA ÁREA (IMAGENS E TEXTO DENTRO DELAS)-->
-    <div id="PageIntro">
-            <div class="PIDiv1">
-                <h1 class="PIDiv1-Title">We Are Hexashop</h1>
-                <p class="PIDiv1-Text">Awsome, clean & creative HTML5 Template</p>
-                <button class="PIDiv1-Button">Purchase Now!</button>
-            </div>
-        <div id="PIGrid">
-            <div class="PIDiv2">
-                <h1 class="PIDiv2-Title">Women</h1>
-                <p class="PIDiv2-Text">Best clothes for women</p>
-            </div>
-            <div class="PIDiv3">
-                <h1 class="PIDiv3-Title">Men</h1>
-                <p class="PIDiv3-Text">Best clothes for men</p>
-            </div>
-            <div class="PIDiv4">
-                <h1 class="PIDiv4-Title">Kids</h1>
-                <p class="PIDiv4-Text">Best clothes for kids</p>
-            </div>
-            <div class="PIDiv5">
-                <h1 class="PIDiv5-Title">Accessories</h1>
-                <p class="PIDiv5-Text">Best trends acessories</p>
-            </div>
-        </div>
-    </div>
-
-
-<!-- ÀREA DOS HOMENS-->
-    <div id="MenArea">
-        <h1>Men's Latest</h1>
-        <p class="MAText0">Details to details is what makes hexashop different from the other themes</p>
-        <div id="MADiv">
-            <div class="Arrow"> <h1 class="Arr"><</h1></div>
-
-            <img class="MAImg1" src="./">
-            <p class="MAText1">Classic Spring</p>
-            <p class="MATextP">$120,00</p>
-
-            <img class="MAImg1" src="./">
-            <p class="MAText1">Classic Spring</p>
-            <p class="MATextP">$120,00</p>
-            
-            <div class="Arrow"> <h1 class="Arr">></h1></div>
-        </div>
-    </div>
-</body>
-</html>
+}
