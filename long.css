@@ -1,0 +1,158 @@
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    margin-bottom: 50px;
+}
+.h-logo{
+    width: 100px;
+    height: 80px;
+}
+.logo-desc{
+    color: rgb(149, 149, 149);
+}
+.logo-name{
+    color: black;
+}
+.home{
+    text-decoration: none;
+    color: black;
+    margin-left: 1100px;
+}
+.base-a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+#h-select{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+#h-select2{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+}
+#PageIntro{
+    display: flex;
+}
+#PIGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.PIDiv1{
+    margin-left: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("./left-banner-image.jpg");
+    width: 900px;
+    height: 525px;
+    align-content: center;
+
+}
+.PIDiv1-Title{
+    color: white;
+    margin-left: 200px;
+    font-size: 40px;
+}
+.PIDiv1-Text{
+    color: white;
+    margin-left: 200px;
+}
+.PIDiv1-Button{
+    margin-left: 200px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+}
+.PIDiv2{
+    margin-left: 30px; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./baner-right-image-01.jpg");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv2-Title{
+    color: white;
+    margin-left: 80px;
+    font-size: 40px;
+}
+.PIDiv2-Text{
+    color: white;
+    margin-left: 80px;
+}
+.PIDiv3{
+    margin-left: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./baner-right-image-02.jpg");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv3-Title{
+    color: white;
+    margin-left: 80px;
+    font-size: 40px;
+}
+.PIDiv3-Text{
+    color: white;
+    margin-left: 80px;
+}
+.PIDiv4{
+    margin-left: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./baner-right-image-03.jpg");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv4-Title{
+    color: white;
+    margin-left: 80px;
+    font-size: 40px;
+}
+.PIDiv4-Text{
+    color: white;
+    margin-left: 80px;
+}
+.PIDiv5{
+    margin-left: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./baner-right-image-04.jpg");
+    width: 490px;
+    height: 250px;
+    align-content: center;
+
+}
+.PIDiv5-Title{
+    color: white;
+    margin-left: 80px;
+    font-size: 40px;
+}
+.PIDiv5-Text{
+    color: white;
+    margin-left: 80px;
+}
+#MenArea{
+    margin-top: 100px;
+    border-top: 2px solid rgb(220, 220, 220);
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+.Arrow{
+    align-content: center;
+    border: 2px solid rgb(220, 220, 220);
+    width: 70px;
+    height: 70px;
+    margin-left: 150px;
+}
+.Arr{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#MADiv{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    
+}
