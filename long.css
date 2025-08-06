@@ -134,7 +134,7 @@ header{
     color: white;
     margin-left: 80px;
 }
-#MenArea{
+#BuyArea{
     margin-top: 100px;
     border-top: 2px solid rgb(220, 220, 220);
     border-bottom: 2px solid rgb(220, 220, 220);
@@ -150,7 +150,7 @@ header{
     margin-left: 20px;
     margin-top: 15px;
 }
-#MADiv{
+#BADiv{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
